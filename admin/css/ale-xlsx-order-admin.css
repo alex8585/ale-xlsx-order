@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.order-total-wrapper {
+    text-align:right;
+    margin:15px;
+ }
+ .mail-wrap {
+     max-width:1000px;
+ }
+ .order-total-wrapper {
+     min-width:400px;
+ }
+  .order-details-wrpapper{
+    margin-top: 20px;
+    width:90%;
+ }
+ .pagination-orders {
+     margin-top: 20px;
+    text-align: right;
+ }
+ .no-orders {
+     font-size: 16px;
+     margin-top: 20px;
+ }

@@ -1,0 +1,189 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.tablepress {
+    table-layout: fixed; 
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    margin-bottom:1em;
+    border:0;
+    color: #303030;
+    font: normal 12px/1.7 Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    
+}
+.tablepress th,
+.tablepress td {
+    padding:8px;
+    border:0;
+    background:0;
+    text-align:left
+}
+.tablepress tbody td {
+    vertical-align:top
+}
+.tablepress [class*=column]+[class*=column]:last-child {
+    float:none
+}
+.tablepress tbody td,
+.tablepress tfoot th {
+    border-top:1px solid #ddd
+}
+.tablepress tbody tr:first-child td {
+    border-top:0
+}
+.tablepress thead th {
+    border-bottom:1px solid #ddd
+}
+.tablepress thead th,
+.tablepress tfoot th {
+    background-color:#d9edf7;
+    font-weight:700;
+    vertical-align:middle
+}
+.tablepress .odd td{
+    background-color:#f9f9f9;
+}
+.tablepress .even  td{
+    background-color:#fff;
+}
+.tablepress .row-hover tr:hover td {
+
+    background-color:#f3f3f3;
+}
+.tablepress img {
+    margin:0;
+    padding:0;
+    border:0;
+    max-width:none
+}
+
+
+table { width: 100%; }
+
+tr, th, td { vertical-align: middle;  }
+
+tr { background: #f8f8f8; }
+
+tr:nth-child(odd) { background: #f0f0f0; }
+
+th, td { padding: 8px 10px; }
+
+th {
+    background: #eaeaea;
+    color: #777;
+    font-weight: 600;
+    text-align: left;
+}
+
+table.dark th {
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+td {
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+td:first-child { border-left: none; }
+
+
+
+
+/*=============================*/
+.product-row .quantity-input {
+    padding:2px;
+    margin:0px;
+}
+
+.order-form label{
+    display: block;
+}
+
+.total-wrapper {
+    text-align: right;
+}
+
+.order-form-wrapper .req {
+    color: red;
+}
+
+.quantity-input {
+    width:50px;
+}
+
+.order-form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.total-wrapper, .order-form-wrapper{
+    display: inline-block;
+}
+
+.total-wrapper {
+    width:50%;
+}
+.order-form-wrapper {
+    width:50%;
+}
+
+.td-row-total {
+    color:green;
+    font-weight: bold;
+}
+
+.submit-btn-wrapper {
+    margin-top: 20px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.success-msg {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+
+
+.order-form input.error {
+    border-width: 1px;
+    border-color: red;
+    border-radius: 5px;
+  }
+
+.order-total, .order-total-nds {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+.col2 { 
+    width: 33%;
+}
+
+.order-form input {
+    width:100%;
+}
